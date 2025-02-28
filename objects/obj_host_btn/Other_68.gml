@@ -11,5 +11,8 @@ if (async_load[? "size"] > 0){
 		var hostNumber = ds_map_find_value(response, "hostNumber")
 		var playerNumber = ds_map_find_value(response, "playerNumber")
 		show_debug_message("we create host number" + string(hostNumber) + "and our player is" + string(playerNumber));
+		global.hostnumber = hostNumber;
+		global.player_number = playerNumber;
+		room_goto(rm_lobby)
 	}
 }

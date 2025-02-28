@@ -6,3 +6,6 @@ enum msgType{
 	STOP_HOST,
 	SET_PLAYER_STAT
 }
+
+global.host_number = noone
+global.player_number = noone
