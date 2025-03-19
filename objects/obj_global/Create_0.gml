@@ -4,7 +4,8 @@ enum msgType{
 	CREATE_HOST,
 	JOIN_HOST,
 	STOP_HOST,
-	SET_PLAYER_STAT
+	SET_PLAYER_STAT,
+	GET_HOSTS
 }
 
 global.host_number = noone

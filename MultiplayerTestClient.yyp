@@ -36,12 +36,16 @@
   "resources":[
     {"id":{"name":"obj_global","path":"objects/obj_global/obj_global.yy",},},
     {"id":{"name":"obj_host_btn","path":"objects/obj_host_btn/obj_host_btn.yy",},},
+    {"id":{"name":"obj_join_btn","path":"objects/obj_join_btn/obj_join_btn.yy",},},
+    {"id":{"name":"obj_join","path":"objects/obj_join/obj_join.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_stop_btn","path":"objects/obj_stop_btn/obj_stop_btn.yy",},},
+    {"id":{"name":"rm_join_lobby","path":"rooms/rm_join_lobby/rm_join_lobby.yy",},},
     {"id":{"name":"rm_lobby","path":"rooms/rm_lobby/rm_lobby.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_multiplayer","path":"scripts/scr_multiplayer/scr_multiplayer.yy",},},
     {"id":{"name":"spr_host_btn","path":"sprites/spr_host_btn/spr_host_btn.yy",},},
+    {"id":{"name":"spr_join_btn","path":"sprites/spr_join_btn/spr_join_btn.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_stop_btn","path":"sprites/spr_stop_btn/spr_stop_btn.yy",},},
   ],
@@ -50,6 +54,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"rm_lobby","path":"rooms/rm_lobby/rm_lobby.yy",},},
+    {"roomId":{"name":"rm_join_lobby","path":"rooms/rm_join_lobby/rm_join_lobby.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
