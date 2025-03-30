@@ -34,8 +34,10 @@
   },
   "name":"MultiplayerTestClient",
   "resources":[
+    {"id":{"name":"fn_server","path":"fonts/fn_server/fn_server.yy",},},
     {"id":{"name":"obj_global","path":"objects/obj_global/obj_global.yy",},},
     {"id":{"name":"obj_host_btn","path":"objects/obj_host_btn/obj_host_btn.yy",},},
+    {"id":{"name":"obj_hosts_btn","path":"objects/obj_hosts_btn/obj_hosts_btn.yy",},},
     {"id":{"name":"obj_join_btn","path":"objects/obj_join_btn/obj_join_btn.yy",},},
     {"id":{"name":"obj_join","path":"objects/obj_join/obj_join.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -45,6 +47,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_multiplayer","path":"scripts/scr_multiplayer/scr_multiplayer.yy",},},
     {"id":{"name":"spr_host_btn","path":"sprites/spr_host_btn/spr_host_btn.yy",},},
+    {"id":{"name":"spr_hosts_btn","path":"sprites/spr_hosts_btn/spr_hosts_btn.yy",},},
     {"id":{"name":"spr_join_btn","path":"sprites/spr_join_btn/spr_join_btn.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_stop_btn","path":"sprites/spr_stop_btn/spr_stop_btn.yy",},},
