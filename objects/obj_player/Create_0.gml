@@ -18,3 +18,6 @@ grv = 0.3;
 jumpbuffer = 0;
 
 onground = 0;
+
+isThisOurPlayer = true;
+playerNumber = 0;

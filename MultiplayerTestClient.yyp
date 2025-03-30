@@ -55,6 +55,7 @@
     {"id":{"name":"rm_wait","path":"rooms/rm_wait/rm_wait.yy",},},
     {"id":{"name":"Approach","path":"scripts/Approach/Approach.yy",},},
     {"id":{"name":"scr_multiplayer","path":"scripts/scr_multiplayer/scr_multiplayer.yy",},},
+    {"id":{"name":"scr_player","path":"scripts/scr_player/scr_player.yy",},},
     {"id":{"name":"Artboard_3","path":"sprites/Artboard_3/Artboard_3.yy",},},
     {"id":{"name":"monster","path":"sprites/monster/monster.yy",},},
     {"id":{"name":"monsterclosed","path":"sprites/monsterclosed/monsterclosed.yy",},},

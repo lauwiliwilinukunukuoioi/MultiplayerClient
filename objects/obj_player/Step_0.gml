@@ -5,6 +5,12 @@ var key_left = keyboard_check(ord("A"))
 var key_up = keyboard_check(ord("W"))
 
 var dir = key_right - key_left;
+
+//multiplayer code
+setPlayerStates();
+getPlayerStates();
+//multiplayer code end
+
 hsp += dir * hsp_acc;
 if (dir == 0)
 {
