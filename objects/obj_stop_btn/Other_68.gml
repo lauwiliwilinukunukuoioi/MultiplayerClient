@@ -11,7 +11,7 @@ if (async_load[? "size"] > 0){
 		var res = ds_map_find_value(response, "res");
 		if(res == "stoped"){
 			is_host_stopped = true;
-			room_goto(Room1);
+			room_goto(rm_main_menu);
 		}
 	}
 }

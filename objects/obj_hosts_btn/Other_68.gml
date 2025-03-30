@@ -9,6 +9,8 @@ if (async_load[? "size"] > 0){
 	if(ds_map_find_value(response, "type") == msgType.JOIN_HOST){
 		show_debug_message("< " + message_id);
 		global.player_number = ds_map_find_value(response, "playernumber");
+		global.host_number = ds_map_find_value(response, "hostnumber");
 		did_we_joined = true
+		room_goto(rm_wait);
 	}
 }
