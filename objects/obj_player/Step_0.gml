@@ -98,8 +98,7 @@ if(!place_meeting(x,y+1.5,obj_InvisibleWall) and place_meeting(x-1,y,obj_Invisib
 }
 //spike
 if(place_meeting(x,y,obj_spikes) and place_meeting(x,y,obj_spikes)){
-	instance_destroy()
-	obj_Control.alarm[0] = room_speed
+	room_restart()
 }
 
 //complete

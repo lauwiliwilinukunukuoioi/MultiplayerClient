@@ -49,6 +49,7 @@
     {"id":{"name":"obj_spikes","path":"objects/obj_spikes/obj_spikes.yy",},},
     {"id":{"name":"obj_stop_btn","path":"objects/obj_stop_btn/obj_stop_btn.yy",},},
     {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
+    {"id":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},},
     {"id":{"name":"rm_join_lobby","path":"rooms/rm_join_lobby/rm_join_lobby.yy",},},
     {"id":{"name":"rm_lobby","path":"rooms/rm_lobby/rm_lobby.yy",},},
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
@@ -83,6 +84,7 @@
     {"id":{"name":"spr_tilemap","path":"sprites/spr_tilemap/spr_tilemap.yy",},},
     {"id":{"name":"spr_tilemap10","path":"sprites/spr_tilemap10/spr_tilemap10.yy",},},
     {"id":{"name":"spr_warningmessage","path":"sprites/spr_warningmessage/spr_warningmessage.yy",},},
+    {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
@@ -93,6 +95,7 @@
     {"roomId":{"name":"rm_join_lobby","path":"rooms/rm_join_lobby/rm_join_lobby.yy",},},
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"roomId":{"name":"rm_wait","path":"rooms/rm_wait/rm_wait.yy",},},
+    {"roomId":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
