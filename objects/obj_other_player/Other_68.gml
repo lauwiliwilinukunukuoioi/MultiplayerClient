@@ -1,3 +1,4 @@
+show_debug_message("Async")
 if (async_load[? "size"] > 0){
 	var c_rec_buff = async_load[? "buffer"];
 	buffer_seek(c_rec_buff,buffer_seek_start,0);
@@ -10,8 +11,7 @@ if (async_load[? "size"] > 0){
 		show_debug_message("GPS< " + message_id);
 		var playerStat = ds_map_find_value(response, "playerstat")
 		var pn = ds_map_find_value(playerStat, "player_number")
-		if(pn == playerStat){
-			show_debug_message("HELLO" + ds_map_find_value(playerStat, "x"))
+		if(pn == playerNumber){//ds_map_find_value(playerStat, "player_number")
 			x = ds_map_find_value(playerStat, "x");
 			y = ds_map_find_value(playerStat, "y");
 		}
