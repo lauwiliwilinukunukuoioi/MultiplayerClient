@@ -10,10 +10,10 @@ if (async_load[? "size"] > 0){
 		show_debug_message("< " + message_id);
 		var players = ds_map_find_value(response, "players");
 		
-		number_of_player_already_in_level = instance_number(obj_player)
+		number_of_player_already_in_level = instance_number(obj_other_player)
 		if(number_of_player_already_in_level > 0){
 			for (var i = 0; i < number_of_player_already_in_level; ++i) {
-			    var ext_player = instance_find(obj_player, i);
+			    var ext_player = instance_find(obj_other_player, i);
 				var number_of_players = ds_list_size(players);
 				for (var j = 0; j < number_of_players; ++j) {
 				    var player = ds_list_find_value(players, j);
